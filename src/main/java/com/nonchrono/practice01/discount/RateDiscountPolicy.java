@@ -2,7 +2,9 @@ package com.nonchrono.practice01.discount;
 
 import com.nonchrono.practice01.member.Grade;
 import com.nonchrono.practice01.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
   private int discountPercent = 10;
